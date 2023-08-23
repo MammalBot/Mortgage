@@ -12,7 +12,7 @@ public class Main {
 		System.out.print("Principal: ");
 		int principal = scanner.nextInt();
 		
-		System.out.print("Interest Rate: ");
+		System.out.print("Interest Rate: ");	//Prompt for interest rate.
 		float annualRate = scanner.nextFloat();
 		float monthlyRate = annualRate / 100 / 12;	//Convert the annual interest rate to monthly.
 		
